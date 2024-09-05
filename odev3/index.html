@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <style>
+      #button {
+        background-color: rgb(74, 74, 222);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin-right: 20px;
+        margin-top: 1px;
+        border: 0;
+        font-weight: bolder;
+      }
+      #nav1 {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        width: 30%;
+        color: #464545;
+      }
+      #nav2 {
+        display: inline-block;
+        position: relative;
+        text-align: right;
+        width: 69%;
+        color: #464545;
+      }
+      #gresim {
+        width: 360px;
+        height: 170px;
+        margin-left:-20px;
+      }
+      .input {
+        padding-left: 20px;
+        width: 480px;
+        min-width:480px;
+        max-width:480px;
+        border: none;
+        height:30px;
+        vertical-align:middle;
+        margin-top:-22px;
+        opacity:0.8;
+      }
+      input:focus{
+        outline:0;
+        
+      }
+      nav {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .ul {
+        list-style: none;
+        color: #656565;
+      }
+      .ul li {
+        display: inline-block;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      footer {
+        background-color: #f2f2f2;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 40px;
+      }
+      ul li ul li {
+        margin-right: 15px;
+        padding: 5px;
+      }
+      .button1 {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        font-size: 14px;
+        height: 36px;
+        color: #5f6368;
+        margin-top: 50px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding: 10px 20px 10px 20px;
+        font-family: Arial, Helvetica;
+        opacity:0.9;
+        font-weight: bold;
+      }
+      #bos {
+        height: 285px;
+        margin-top: 20px;
+      }
+      a{
+        text-decoration:none;
+        color:#5f6368;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <!--Navigation kısmı başlangıç-->
+      <div id="nav1">
+        <span style="margin-right: 5px; margin-left: 30px">About</span>
+        <span>Store</span>
+      </div>
+      <div id="nav2">
+        <span style="margin-right: 5px">Gmail</span>
+        <span style="margin-right: 10px">Images</span>
+        <a href="#"
+          ><img
+            src="al-icon.png"
+            alt=""
+            style="vertical-align: middle; margin-right: 10px"
+        /></a>
+        <button type="button" id="button">Sign Up</button>
+      </div>
+    </nav>
+
+    <!--Navigasyon bitiş-->
+    <!--Arama Kısmı başlangıç-->
+    <div style="text-align: center; margin-top: 127px">
+      <div>
+        <img src="indir.png" alt="Google" id="gresim" />
+      </div>
+      <form action="">
+        <div
+          style="
+            border: 1px solid #ccc;
+            width: 600px;
+            border-radius: 20px;
+            margin-left: 30%;
+            height: 41px;
+          "
+        >
+          <a href="#"><img
+            src="i.webp"
+            alt=""
+            style="
+              width: 18px;
+              height: 20px;
+              border: 0;
+              margin-bottom: 6px;
+              margin-top: 11px;
+            "
+          /></a>
+          <input type="text" name="arama" placeholder="." class="input" />
+          <a href="#"><img
+            src="mikrofon1.png"
+            alt=""
+            style="width: 20px; height: 28px; border: 0; margin-bottom: 2px"
+          /></a>
+        </div>
+        <button type="button" class="button1">Google Search</button>
+        <button type="button" class="button1">I'm Feeling Lucky</button>
+      </form>
+    </div>
+
+    <!--Arama kısmı bitiş-->
+    <div id="bos">&nbsp;</div>
+    <!--footer başlangıç-->
+    <footer>
+      <ul class="ul">
+        <li style="width: 49%; text-align: left;">
+          <ul style="margin-left: -40px">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="">How Search works</a></li>
+          </ul>
+        </li>
+        <li style="width: 50%; text-align: right;">
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
